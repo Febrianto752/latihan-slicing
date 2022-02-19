@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.btn-sm {
+  padding: 9px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  height: fit-content;
+}
+
+.btn-md {
+  padding: 8px 26px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-lg {
+  padding: 15px 38px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-outline-primary {
+  border: 2px solid #0C111F;
+  background-color: transparent;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #0C111F;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0C111F;
+  color: #eeeeee;
+}
+
+.btn-primary {
+  background-color: #1C3F4D;
+  color: #eeeeee;
+  border: 2px solid #1C3F4D;
+}
+
+.btn-primary:hover {
+  background-color: #0b191f;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #1C3F4D;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Poppins, "Georgia", sans-serif;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #1C3F4D;
+  color: white;
+}
+
+.btn-show-gallery {
+  display: flex;
+  align-items: center;
+}
+
+.btn-show-gallery .iconify {
+  margin-left: 8px;
+}
+
+.navbar-nav a.active {
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  position: absolute;
+  right: 0;
+  /* padding: 10px; */
+  font-size: 2em;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-collapse {
+  height: 400px;
+  padding-bottom: 20px;
+}

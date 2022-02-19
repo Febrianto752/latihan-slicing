@@ -1,0 +1,143 @@
+@media (max-width: 1330px) {
+  .holiday {
+    text-align: center;
+  }
+
+  .holiday h2 span {
+    display: inline-block !important;
+  }
+
+  .holiday p span {
+    display: inline-block !important;
+  }
+
+  .holiday {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+
+  .features {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1250px) {
+  nav ul li:last-child a {
+    color: white;
+  }
+
+  .banner-left-side h1 {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 1084px) {
+  nav ul li:last-child a {
+    color: #575A62;
+  }
+
+  nav {
+    flex-direction: column;
+    background-color: #84DFFF;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  nav ul {
+    flex-direction: column;
+
+  }
+
+  nav .btn-group {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav .btn-group button {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .wrapper-navbar-nav {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block !important;
+  }
+
+  .hero {
+    margin-bottom: 20px;
+  }
+
+  .navbar-nav {
+    padding-left: 34px !important;
+    margin-left: 0 !important;
+  }
+
+  .navbar-nav li {
+    margin-bottom: 10px;
+
+  }
+
+  .navbar-nav li a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+@media (max-width: 1006px) {
+  .banner-left-side {
+    width: 100% !important;
+    height: 600px !important;
+    border-radius: 0 !important;
+  }
+
+  .banner-right-side {
+    display: none !important;
+  }
+
+  .input-group {
+    width: 80% !important;
+  }
+
+  .footer-links-wrapper {
+    padding-left: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 620px) {
+  .banner-left-side {
+    height: 720px !important;
+  }
+
+  .holiday img {
+    width: 100% !important;
+  }
+
+}
+
+
+@media (max-width: 514px) {
+  .banner-left-side h1 {
+    font-size: 38px !important;
+  }
+
+  .experiences {
+
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+
+  }
+
+  .input-group {
+    width: 100% !important;
+  }
+
+}

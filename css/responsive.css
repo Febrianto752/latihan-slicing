@@ -130,10 +130,55 @@
   }
 
   .experiences {
-
     padding-left: 6% !important;
     padding-right: 6% !important;
+  }
 
+  .input-group {
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+  .banner-left-side h1 {
+    font-size: 30px !important;
+  }
+
+  .destination header h2 {
+    font-size: 28px !important;
+    margin-top: 40px;
+  }
+
+  .product {
+    width: 360px !important;
+  }
+
+  .holiday h2 {
+    font-size: 28px !important;
+  }
+
+  .gallery header h2 {
+    font-size: 28px !important;
+
+  }
+
+  .gallery header p span {
+    font-size: 16px !important;
+  }
+
+  .jumbotron {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .jumbotron h2 {
+    font-size: 28px !important;
+  }
+
+  .jumbotron p {
+    font-size: 16px !important;
   }
 
   .input-group {

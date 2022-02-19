@@ -179,7 +179,7 @@ nav .wrapper-navbar-nav {
 
 .product figure {
   position: relative;
-  width: 400px;
+  /* width: 400px; */
   margin-bottom: 20px;
   overflow: hidden;
   cursor: pointer;

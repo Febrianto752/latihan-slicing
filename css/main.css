@@ -67,6 +67,10 @@ nav .wrapper-navbar-nav {
   text-shadow: 0 0 1px rgba(255, 255, 255, .8);
 }
 
+.navbar-nav li a:hover {
+  text-decoration: underline;
+}
+
 .btn-group {
   display: flex;
   align-items: center;
